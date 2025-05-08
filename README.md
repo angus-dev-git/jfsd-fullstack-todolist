@@ -39,7 +39,7 @@ Le variabili sono caricate da file `.env`. Non vengono versionate per sicurezza,
 ```env
 PORT=8000
 DB_URL=mongodb://localhost:27017/todolist
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://localhost:8080
 ```
 
 > ⚠️ Ricordati di creare il file `.env` nella root del backend prima di avviare il server senza Docker.
