@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:angus-dev-git/jfsd-fe-todolist.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:angus-dev-git/jfsd-be-todolist.git
