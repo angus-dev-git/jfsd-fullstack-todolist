@@ -1,16 +1,16 @@
 version: '3.9'
 services:
   backend:
-    build: ./jfsd-be-todolist
+    build: ./backend
     ports:
       - "3001:8000"
     volumes:
-      - ./jfsd-be-todolist:/app
+      - ./backend:/app
     environment:
       - NODE_ENV=development
 
   frontend:
-    build: ./jfsd-fe-todolist
+    build: ./frontend
     ports:
       - "8080:80"
     depends_on:

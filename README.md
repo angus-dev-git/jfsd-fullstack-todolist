@@ -68,12 +68,12 @@ npm run build      # Compila la build di produzione
 
 ## 🔍 API Endpoints principali
 
-| Metodo | Rotta             | Descrizione         |
-|--------|-------------------|---------------------|
-| POST   | `/user/login`     | Login utente        |
-| POST   | `/user/register`  | Registrazione       |
-| GET    | `/todos`          | Recupera i ToDo     |
-| POST   | `/todos`          | Crea un nuovo ToDo  |
+| Metodo | Rotta            | Descrizione         |
+|--------|------------------|---------------------|
+| POST   | `/user/login`    | Login utente        |
+| POST   | `/user/register` | Registrazione       |
+| GET    | `/activity`      | Recupera i ToDo     |
+| POST   | `/activity`      | Crea un nuovo ToDo  |
 
 ---
 
@@ -106,15 +106,15 @@ volumes:
 
 ## 📸 Screenshot
 
-(aggiungi qui se vuoi immagini o GIF animate del funzionamento dell’app)
+(-)
 
 ---
 
 ## 🧑‍💻 Autore
 
 **Tuo Nome**  
-👉 [GitHub](https://github.com/tuo-username)  
-📧 [Email se vuoi]
+👉 [GitHub](https://github.com/angus-dev-git)  
+📧 [augusto.ciuccatosti(AT)gmail.com]
 
 ---
 
